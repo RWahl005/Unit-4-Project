@@ -1,0 +1,33 @@
+section {
+    background-color: blue;
+    width: 40%;
+    padding: 20px;
+    margin: 30px;
+    margin: auto;
+    border: 3px solid black;
+}
+
+section img{
+    width: 10%;
+    display: block;
+    margin: auto;
+}
+
+section p{
+    color: white;
+    text-align: center;
+}
+
+section img#dog{
+    width: 60%;
+}
+@media only screen and (max-width: 600px) {
+    section img{
+        width: 50%;
+    }
+    section{
+        width: 100%;
+        margin: 0;
+    }
+}
+
